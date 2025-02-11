@@ -11,7 +11,6 @@ body {
     padding: 12px;
     width: 300px;
 
-    
 }
 
 .sidebar_navegation {
@@ -33,7 +32,6 @@ body {
     width: 80px;
 }
 
-
 .sidebar nav ul {
     margin-top: 20px;
     padding: 0 20px 10px 20px;
@@ -48,9 +46,7 @@ body {
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-   
 }
-
 
 .Library {
     background-color: #121212;
@@ -69,7 +65,6 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 50px;
-    
 }
 
 .Library .Library_content .Library_button {
@@ -96,7 +91,6 @@ body {
 
 .Library .Library_content .fa-plus { /*nao se cmporta da maneira esperada*/
     margin: 24px 10px;
-
 }
 
 .section_playlist {
@@ -166,6 +160,8 @@ body {
 
 .languages .languages_button {
     align-items: center;
+    justify-content: space-between;
+    gap: 10px;
     background-color: transparent;
     border: 1px solid #878787;
     color: #FFF;
